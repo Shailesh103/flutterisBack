@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Homepage extends StatelessWidget {
 
-  final int ans=33;
+  final int ans=30;
   final String name="codepur";
 
   @override
@@ -13,7 +13,7 @@ class Homepage extends StatelessWidget {
        ),
         body: Center(
           child: Container(
-            child: Text("I am going to give you $ans money for the boy name $name "),
+            child: Text("welcome to $ans of $name"),
           ),
         ),
         drawer: Drawer(),
